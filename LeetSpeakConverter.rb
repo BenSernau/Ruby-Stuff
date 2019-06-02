@@ -1,8 +1,16 @@
-text =  "To be, or not to be, that is the question:
+nouns = Array[];
+puts "Enter a noun:";
+nouns[0] = gets.chomp();
+puts "Enter a verb:";
+verb = gets.chomp();
+puts "Enter another noun:";
+nouns[1] = gets.chomp();
+
+text =  "To be, or not to be, that is the " + nouns[0] + ":
 Whether 'tis nobler in the mind to suffer
 The slings and arrows of outrageous fortune,
 Or to take arms against a sea of troubles
-And by opposing end them. To die—to sleep,
+And by opposing end them. To die—to " + verb + ",
 No more; and by a sleep to say we end
 The heart-ache and the thousand natural shocks
 That flesh is heir to: 'tis a consummation
@@ -10,7 +18,7 @@ Devoutly to be wish'd. To die, to sleep;
 To sleep, perchance to dream—ay, there's the rub:
 For in that sleep of death what dreams may come,
 When we have shuffled off this mortal coil,
-Must give us pause—there's the respect
+Must give us pause—there's the " + nouns[1] + "
 That makes calamity of so long life.
 For who would bear the whips and scorns of time,
 Th'oppressor's wrong, the proud man's contumely,
